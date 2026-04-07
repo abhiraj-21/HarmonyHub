@@ -5,7 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
@@ -19,7 +19,7 @@ public class AppUserResponseDto {
      private String role;
      private String accessToken;
      private String refreshToken;
-     private LocalDate createdAt;
-     private LocalDate updatedAt;
+     private LocalDateTime createdAt;
+     private LocalDateTime updatedAt;
 
 }

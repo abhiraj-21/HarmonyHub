@@ -29,6 +29,7 @@ public class PlaylistWithSongResponseDto {
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
+    @Builder
     public static class SongInPlaylistResponse{
         private Long songId;
         private String title;
